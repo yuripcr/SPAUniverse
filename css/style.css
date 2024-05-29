@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: url(../img/mountains-universe-1\ 1.jpg) lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+.home {
+    background: url(../img/mountains-universe-1\ 1.jpg) lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.universo {
+    background: url(../img/mountains-universe-2.jpg) lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.exploracao {
+    background: url(../img/mountains-universe-3.jpg) lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+    padding: 2.5rem 4.5rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.active {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    line-height: 125%;
+}
+
+p {
+    font-size: 18px;
+    line-height: 160%;
+}
+
+#page-1, #erro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10.75rem;
+}
+
+#page-1 a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.875rem;
+    padding: 0.75rem 2rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-transform: uppercase;
+    height: 3rem;
+    border-radius: 5px;
+    border: 2px solid #FFF;
+    background: none;
+    color: white;
+    transition: 0.3s;
+    margin-top: 0.5rem;
+}
+
+#page-1 a:hover {
+    background: white;
+    color: #02799D;
+}
+
+#page-2, #page-3 {
+    padding: 6.25rem 0 0 4rem;
+    max-width: 648px;
+}
