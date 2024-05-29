@@ -4,7 +4,7 @@
 Página desenvolvida usando o conceito de SPA (Single Page Application) <br/>
 </p>
 
-<br>
+![Gif da página](https://github.com/yuripcr/SPAUniverse/blob/main/.github/gifUniverse.gif)
 
 ## 🚀 Tecnologias
 
